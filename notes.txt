@@ -1,0 +1,30 @@
+https://github.com/mayank953
+
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+
+
+https://filess.io
+
+
+
+https://learn.microsoft.com/en-us/azure/databricks/connect/storage/tutorial-azure-storage
+
+
+https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas
+=================================
+Azure project- data ingestion -
+==============================
+create pipeline->
+------------------
+copy data transformation -> select source -> http -> format csv -> 
+linked service creation:-
+------------------------
+new linked service ->authentication type -> anonymous->
+properties like first row as header check box -> no schema ->
+
+
+ 
+for multiple source data -> copy data -> base URL -> relative URL -> 
+sink -> create storage account for sink -> create container -> create directories bronze,silver,gold (Meddallion architecture)-> 
+creating 2 linked list connection -> one for http -> one for MySQL
